@@ -8,6 +8,19 @@ It expects:
 * Shape $[B, 3, H, W]$
 
 Internally, it downsamples by stride‑2 convolutions, so $H$ and $W$ should ideally be multiples of 4 (to avoid size mismatch). In the template below, we crop the image center to that.
+This model is better to be used for upscaling textures but can be used for any type of image. also must be used for low quality image, do not use this on high quality ones.
+
+Model Output Examples:
+Terrain:
+<img width="989" height="880" alt="1" src="https://github.com/user-attachments/assets/9fc90785-607a-46e0-bab2-de80beffeef9" />
+
+Wood:
+<img width="989" height="898" alt="2" src="https://github.com/user-attachments/assets/446228ca-1b9d-4bb8-af93-805474e6b9f5" />
+
+Metal:
+<img width="989" height="920" alt="3" src="https://github.com/user-attachments/assets/ecaa7df4-85f9-4c9b-8a8f-4395247fb901" />
+
+
 
 # 2. Files you should have
 
@@ -356,6 +369,7 @@ lr_tensor = pil_to_tensor(img, device)
 # Inference
 with torch.no_grad():
     sr_tensor = model(lr_tensor)
+
 
 sr_img = tensor_to_pil(sr_tensor)
 sr_img.save("upscaled.png")
