@@ -11,6 +11,7 @@ Internally, it downsamples by stride‑2 convolutions, so $H$ and $W$ should ide
 This model is better to be used for upscaling textures but can be used for any type of image. also must be used for low quality image, do not use this on high quality ones.
 
 Model Output Examples:
+
 Terrain:
 <img width="989" height="880" alt="1" src="https://github.com/user-attachments/assets/9fc90785-607a-46e0-bab2-de80beffeef9" />
 
