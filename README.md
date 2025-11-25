@@ -337,8 +337,6 @@ python use_texture_sr.py \
   --num-blocks 16
 ```
 
-If you trained with different `num_channels` or `num_blocks`, use those values instead.
-
 To force CPU:
 
 ```bash
