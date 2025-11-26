@@ -22,7 +22,8 @@ Metal:
 <img width="989" height="920" alt="3" src="https://github.com/user-attachments/assets/ecaa7df4-85f9-4c9b-8a8f-4395247fb901" />
 
 Random Image:
-<img width="1784" height="1784" alt="4" src="https://github.com/user-attachments/assets/c3d7acea-3763-4822-a309-56f532dfb925" />
+<img width="966" height="989" alt="4" src="https://github.com/user-attachments/assets/baf8f175-b73d-426f-8de8-ef8e7fa23d42" />
+
 
 
 
